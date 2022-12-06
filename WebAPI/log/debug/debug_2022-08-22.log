@@ -1,0 +1,17 @@
+
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2022-08-22 11:03:19,222                                   
+【执行时间】[11086]毫秒                                   
+【debug文件】E:\api\WebAPI\WebAPI\Controllers\ValuesController.cs                                   
+【debug行号】29                                   
+【debug类】WebAPI.Controllers.ValuesController 属性[(null)]                                   
+【debug描述】111
+＝＝＝＝＝＝＝＝＝＝                                   
+【日志级别】DEBUG                                   
+【记录时间】2022-08-22 11:03:25,487                                   
+【执行时间】[17351]毫秒                                   
+【debug文件】E:\api\WebAPI\WebAPI\ConfigurationTools\Log4\Log4Helper.cs                                   
+【debug行号】69                                   
+【debug类】WebAPI.Controllers.ValuesController 属性[(null)]                                   
+【debug描述】

@@ -1,0 +1,10 @@
+E:\api\WebAPI\IService\bin\Debug\IService.dll
+E:\api\WebAPI\IService\bin\Debug\IService.pdb
+E:\api\WebAPI\IService\bin\Debug\Entity.dll
+E:\api\WebAPI\IService\bin\Debug\SqlSugar.dll
+E:\api\WebAPI\IService\bin\Debug\Entity.pdb
+E:\api\WebAPI\IService\obj\Debug\WebApi.IService.csproj.AssemblyReference.cache
+E:\api\WebAPI\IService\obj\Debug\WebApi.IService.csproj.CoreCompileInputs.cache
+E:\api\WebAPI\IService\obj\Debug\WebApi.IService.csproj.CopyComplete
+E:\api\WebAPI\IService\obj\Debug\IService.dll
+E:\api\WebAPI\IService\obj\Debug\IService.pdb

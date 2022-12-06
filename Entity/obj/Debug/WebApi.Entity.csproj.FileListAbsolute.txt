@@ -1,0 +1,8 @@
+E:\api\WebAPI\Entity\bin\Debug\Entity.dll
+E:\api\WebAPI\Entity\bin\Debug\Entity.pdb
+E:\api\WebAPI\Entity\bin\Debug\SqlSugar.dll
+E:\api\WebAPI\Entity\obj\Debug\WebApi.Entity.csproj.AssemblyReference.cache
+E:\api\WebAPI\Entity\obj\Debug\WebApi.Entity.csproj.CoreCompileInputs.cache
+E:\api\WebAPI\Entity\obj\Debug\WebApi.Entity.csproj.CopyComplete
+E:\api\WebAPI\Entity\obj\Debug\Entity.dll
+E:\api\WebAPI\Entity\obj\Debug\Entity.pdb
