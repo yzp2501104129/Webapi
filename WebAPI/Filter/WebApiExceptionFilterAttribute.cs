@@ -35,7 +35,7 @@ namespace WebAPI.Filter
             string ExMessage = actionExecutedContext.Exception.Message;
             //异常
             string StackTrac = actionExecutedContext.Exception.StackTrace;
-            StackTrac = StackTrac.Length > 3000 ? StackTrac.Substring(0, 3000) : StackTrac;
+            StackTrac = StackTrac.Length > 5000 ? StackTrac.Substring(0, 5000) : StackTrac;
             //请求URL
             string RequestUrl = actionExecutedContext.Request.RequestUri.AbsoluteUri;
             //ip地址

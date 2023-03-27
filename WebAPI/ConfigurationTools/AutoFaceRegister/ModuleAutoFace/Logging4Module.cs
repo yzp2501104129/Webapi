@@ -9,7 +9,7 @@ using System.Web;
 namespace WebAPI.ConfigurationTools.AutoFaceRegister.ModuleAutoFace
 {
     /// <summary>
-    /// 注册log4net  这段代码我也看不懂 只知道一个大概   代码是autofac官网提供的  我只是一个搬运工
+    /// 注册log4net autofac官网提供
     /// </summary>
     public class Logging4Module : Autofac.Module
     {

@@ -9,7 +9,7 @@ namespace WebApi.UtilityApi.Tools.Redis
 {
     public class RedisTools : IDisposable
     {
-        /*copyright@2013 All Rights Reserved
+        /*
          * servicestack.redis为github中的开源项目
          * redis是一个典型的k/v型数据库
          * redis共支持五种类型的数据 string,list,hash,set,sortedset

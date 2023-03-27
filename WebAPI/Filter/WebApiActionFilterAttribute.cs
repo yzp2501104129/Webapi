@@ -74,21 +74,21 @@ namespace WebAPI.Filter
         /// <param name="actionExecutedContext"></param>
         public override void OnActionExecuted(HttpActionExecutedContext actionExecutedContext)
         {
-            //if (actionExecutedContext.Response != null)
-            //{
-            //    string Result = actionExecutedContext.Response.Content.ReadAsStringAsync().Result;
-            //    DataSoureResponeModel dataSoureRespone = new DataSoureResponeModel()
-            //    {
-            //        Code = (int)System.Net.HttpStatusCode.OK,
-            //        Data = String.IsNullOrWhiteSpace(Result) == true ? null : DESEncrypt.Encrypt(Result, SecretKey),
-            //        Message = String.Empty
-            //    };
-            //    actionExecutedContext.Response = new System.Net.Http.HttpResponseMessage()
-            //    {
-            //        StatusCode = System.Net.HttpStatusCode.OK,
-            //        Content = new StringContent(JsonConvert.SerializeObject(dataSoureRespone), Encoding.UTF8, "application/json"),
-            //    };
-            //}
+            if (actionExecutedContext.Response != null)
+            {
+                string Result = actionExecutedContext.Response.Content.ReadAsStringAsync().Result;
+                DataSoureResponeModel dataSoureRespone = new DataSoureResponeModel()
+                {
+                    Code = (int)System.Net.HttpStatusCode.OK,
+                    Data = String.IsNullOrWhiteSpace(Result) == true ? null : DESEncrypt.Encrypt(Result, SecretKey),
+                    Message = String.Empty
+                };
+                actionExecutedContext.Response = new System.Net.Http.HttpResponseMessage()
+                {
+                    StatusCode = System.Net.HttpStatusCode.OK,
+                    Content = new StringContent(JsonConvert.SerializeObject(dataSoureRespone), Encoding.UTF8, "application/json"),
+                };
+            }
             base.OnActionExecuted(actionExecutedContext);
         }
     }
